@@ -1,89 +1,14 @@
 :root {
   --primary-color: #0000a3;
   --secondary-color: #f0f0f0;
-  --line-color: #808080;
+  --line-color: #e8ebec;
   --button-hover: #3e8e41;
 }
 
-
-.navbar {
-    height: 58px ;
+.card-border {
+  border: none;
 }
 
-body {
-  margin-top: 50px;
-}
-
-h1 {
-  font-size: 48px;
-  margin: 0 auto;
-}
-
-p {
-  padding: none;
-  margin: none;
-}
-
-@media (max-width:800px) {
-  h1 {
-    font-size: 20px;
-  }
-  h2 {
-    font-size: 15px;
-  }
-  h3 {
-    font-size: 12px;
-  }
-}
-
-.main-body {
-  background: var(--secondary-color);
-  max-width: 800px;
-  margin: 100px auto;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  border: 3px solid var(--line-color);
-  border-radius: 20px;
-  text-align: center;
-}
-
-.container1 {
-  margin-top: 100px;
-  margin-bottom: 30px
-  display: block;
-  text-align: center;
-}
-
-.container2 {
-  display: flex;
-  justify-content: center;
-  text-align: justify;
-  font-size: 14px;
-}
-
-a {
-  margin: none;
-}
-
-button {
-  padding: 15px;
-  margin: 20px;
-  border-radius: 10px;
-  border: 3px solid var(--line-color);
-}
-
-button:hover {
+.button:hover {
   background-color: var(--button-hover);
-}
-
-button:active {
-  background-color: var(--button-hover);
-  box-shadow: 0 5px var(--line-color);
-  transform: translateY(4px);
-}
-
-.box {
-  padding: 15px;
-  margin: 20px;
-  background-color: white;
 }
