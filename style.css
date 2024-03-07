@@ -3,6 +3,7 @@
   --secondary-color: #f0f0f0;
   --line-color: #e8ebec;
   --button-hover: #3e8e41;
+  --footer-color: #898aa6;
 }
 
 .card-border {
@@ -11,4 +12,9 @@
 
 .button:hover {
   background-color: var(--button-hover);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: white;
 }
