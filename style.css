@@ -3,7 +3,7 @@
   --secondary-color: #f0f0f0;
   --line-color: #e8ebec;
   --button-hover: #3e8e41;
-  --footer-color: #898aa6;
+  --footer-color: #6351ce;
 }
 
 .card-border {
@@ -17,4 +17,21 @@
 .footer {
   background-color: var(--primary-color);
   color: white;
+}
+
+footer {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--footer-color);
+  color: white;
+}
+
+a {
+  color: yellow;
+}
+
+.email {
+  color: var(--primary-color);
 }
